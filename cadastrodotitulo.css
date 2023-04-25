@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color:#F8DE58;
+    color: black;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.menu{
+    position: absolute;
+    padding-left: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 30px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column; 
+    width: 70%;
+}
+
+.cadastro input{
+    background-color: black;
+    color: white;
+    height: 94px;
+}
+
+.cadastro label{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+textarea{
+    background-color: #000000;
+}
+
+.menu > a{
+    font-size: 2rem;
+}
+
+.botao input{
+    width: 80%;
+    height: 112px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
