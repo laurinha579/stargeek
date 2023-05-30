@@ -15,7 +15,7 @@
         <h1>Cadastro do Título</h1>
     </header>
     <main>
-        <form action="catalogo.html"class="cadastro">
+        <form class="cadastro">
             <label for="inome">Nome do título</label>
             <input type="text" id="inome">
             <label for="ivoce">Resumo</label>
@@ -23,12 +23,13 @@
             <textarea name="txtvoce" id="ivoce" cols="30" rows="10"></textarea>
             <br>
             <label for="ifoto">Escolha a foto</label>
-            <input type="text" id="ifoto">
+            <input type="file" id="ifoto">
                 <div class="botao">
-                    <input type="submit" value="Enviar">
+                    <input class="btncadastrar" type="button" value="Enviar">
                 </div>
 
         </form>
     </main>
+    <script src="cadastrodotitulo.js"></script>
 </body>
 </html>
